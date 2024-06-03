@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><svg xmlns:android="http://schemas.android.com/apk/res/android" height="48" width="48" xmlns="http://www.w3.org/2000/svg">
+
+    <path d="M11 24L25 2 39 24 25 32z" fill="#9fa8da"/>
+    <path d="M25 2L39 24 25 32z" fill="#7986cb"/>
+    <path d="M11 27L25 35 39 27 25 46z" fill="#9fa8da"/>
+    <path d="M25 35L39 27 25 46zM11 24L25 18 39 24 25 32z" fill="#7986cb"/>
+    <path d="M25 18L39 24 25 32z" fill="#5c6bc0"/>
+</svg>
