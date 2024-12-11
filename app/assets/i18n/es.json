@@ -270,5 +270,7 @@
     "done": "Hecho",
     "moduleDashboard": "Tablero",
     "moduleProfile": "Perfil",
-    "rooms": "Habitaciones"
+    "rooms": "Habitaciones",
+    "noNetwork":"No se ha encontrado una network",
+    "website":"Sitio web"
 }

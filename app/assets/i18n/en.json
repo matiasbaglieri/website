@@ -101,6 +101,7 @@
     "changeNum": "Change your phone number",
 
     "network" : "Network",
+    "myprojects" : "My Projects",
     "chat" : "Chat",
     "chats" : "Chats",
     "market" : "Market",
@@ -279,6 +280,8 @@
     "done": "Done",
     "moduleDashboard": "Dashboard",
     "moduleProfile": "Profile",
-    "rooms": "Rooms"
+    "rooms": "Rooms",
+    "noNetwork":"not network found",
+    "website":"Website"
 }
 
