@@ -1,0 +1,243 @@
+.networkHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    width: 100%;
+
+    .p-4:hover {
+      background-color: #f85623;
+      color: white;
+      cursor: pointer;
+
+      h4 {
+        color: white;
+      }
+    }
+  }
+
+  .breadcrumb {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    a {
+      cursor: pointer;
+    }
+  }
+
+  .communityHolder, .environmentHolder {
+    //display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .card {
+      width: 100%;
+
+      .breadcrumb {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+      //justify-content: space-between;
+      .userData {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .name {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .nav-icon {
+        margin-right: 15px;
+        font-size: 50px;
+      }
+    }
+
+    .btn {
+      background-color: #f85623;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+
+    .communities {
+      .rounded {
+        img {
+          width: 50px;
+          border-radius: 50%;
+        }
+      }
+
+      .subscribe {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 15px;
+        align-items: center;
+
+        .p-4:hover {
+          background-color: unset;
+        }
+
+        button {
+          width: 80px;
+        }
+
+        button:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+
+  }
+
+  .btn {
+    background-color: #f85623;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .card-profile {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    bottom: -33px;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .round-pill.bg-primary {
+    color: #fff;
+  }
+
+  .like-banner {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .round-pill {
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+    font-size: .875rem;
+    font-weight: 500;
+    transition: all .15s ease;
+    color: #5e72e4;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .img-network-area {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .action-menu-btn {
+    background: transparent;
+    color: #fff;
+    display: block;
+    border: none;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .subscribe-mat-btn-menu {
+    position: absolute;
+    right: 20px;
+  }
+}
+
+.network-form-wizard {
+  .tab-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  btn-loading {
+    position: absolute;
+    right: 1.25rem;
+  }
+
+  .card-header .nav .nav-item a{
+    line-height: 25px;
+    height: 35px;
+  }
+
+  .card-block {
+    padding-top: .5rem !important;
+  }
+
+  .nav-tabs .nav-item a {
+    line-height: unset !important;
+    height: unset !important;
+  }
+
+  .modal-body {
+    min-height: 515px;
+    padding-top: 0;
+  }
+
+  .modal-header {
+    .close {
+      top: 15px;
+      right: 15px;
+      position: absolute;
+    }
+  }
+
+  .modal-footer {
+    justify-content: center;
+
+    .btn {
+      background-color: #f85623;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+  }
+
+  .disabled {
+    pointer-events: none;
+  }
+
+}
+
+
+
+
